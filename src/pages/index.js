@@ -2,25 +2,22 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.png"
-import thumbnailEvent from "../../static/images/feature-event.png"
-import thumbnailBoard from "../../static/images/feature-board.png"
-import thumbnailNews from "../../static/images/feature-news.png"
-import thumbnailTeams from "../../static/images/feature-team.png"
-import thumbnailStaff from "../../static/images/feature-user.png"
+import featureImage from "../../static/images/success_factors.svg"
+import thumbnailContract from "../../static/images/contract.svg"
+import thumbnailNetwork from "../../static/images/network.svg"
+import thumbnailList from "../../static/images/list.svg"
+import thumbnailCollab from "../../static/images/collab.svg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Make your Staff and Workspace Happy" />
+    <SEO title="Find your most valuable companies" />
 
     <div className="page-header home">
-      <h1>Make your Staff and Workspace Happy</h1>
+      <h1>Find your most valuable companies</h1>
       <p>
-        HiStaff gives your complex the opportunity to increase the percentage of
-        happiness
+        Prospect gives colleges and universities the data you need to help
         <br />
-        and enjoyment of your staff and as a result, bring productivity to your
-        workspace.
+        your students get the job they want.
       </p>
       <img alt="Dashboard" src={featureImage} />
     </div>
@@ -31,16 +28,16 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-6 first">
               <div className="thumbnail">
-                <img alt="Event" src={thumbnailEvent} />
+                <img alt="Event" src={thumbnailContract} />
               </div>
             </div>
 
             <div className="col-6">
               <div className="feature__content">
-                <h2>Create and Join Events</h2>
+                <h2>Track offers and placement</h2>
                 <p>
-                  Save your time and energy by letting HiStaff to manage your
-                  events (handle the colleague’s birthday, gathering, etc.)
+                  Know who is hiring your students and the offers that they are
+                  making
                 </p>
               </div>
             </div>
@@ -51,19 +48,17 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-6">
               <div className="feature__content">
-                <h2>Public Board</h2>
+                <h2>Leverage your alumni</h2>
                 <p>
-                  Let the staff write down on the board freely,
-                  <br />
-                  Joking with each other and writing cool content can make the
-                  workplace more diverse and attractive for employees." "
+                  Work with alumni to connect current students with future
+                  employers
                 </p>
               </div>
             </div>
 
             <div className="col-6 first">
               <div className="thumbnail">
-                <img alt="Board" src={thumbnailBoard} />
+                <img alt="Board" src={thumbnailNetwork} />
               </div>
             </div>
           </div>
@@ -73,16 +68,16 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-6 first">
               <div className="thumbnail">
-                <img alt="News" src={thumbnailNews} />
+                <img alt="News" src={thumbnailList} />
               </div>
             </div>
 
             <div className="col-6">
               <div className="feature__content">
-                <h2>Internal News</h2>
+                <h2>See the big picture</h2>
                 <p>
-                  Get rid of sending news by e-mail and its problems; post the
-                  news in an internal and attractive format via HiStaff instead.
+                  Reference data from job sites like LinkedIn, Glassdoor,
+                  Handshake, and Indeed.com
                 </p>
               </div>
             </div>
@@ -93,38 +88,17 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-6">
               <div className="feature__content">
-                <h2>Teams</h2>
+                <h2>Unify your efforts</h2>
                 <p>
-                  HiStaff let you add staff in specific teams and manage them
-                  easily.
+                  Collaborate across your university to build relationships with
+                  employers
                 </p>
               </div>
             </div>
 
             <div className="col-6 first">
               <div className="thumbnail">
-                <img alt="Team" src={thumbnailTeams} />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="feature__item">
-          <div className="row">
-            <div className="col-6 first">
-              <div className="thumbnail">
-                <img alt="Users" src={thumbnailStaff} />
-              </div>
-            </div>
-
-            <div className="col-6">
-              <div className="feature__content">
-                <h2>Staff management</h2>
-                <p>
-                  Discard traditional ways to archive staff documents and
-                  information, and try new ways to store and archive them in
-                  HiStaff easily.
-                </p>
+                <img alt="Team" src={thumbnailCollab} />
               </div>
             </div>
           </div>
@@ -135,20 +109,20 @@ const IndexPage = () => (
     <div className="call-to-action">
       <div className="container">
         <div className="call-to-action__content">
-          <h2>Sign up for free</h2>
+          <h2>Request a demo</h2>
           <p>
-            Sign up and start increasing the productivity of your business with
-            HiStaff.
+            Start increasing the coordination and productivity of your job
+            placement efforts
           </p>
         </div>
 
         <div className="button">
           <a
-            href="https://app.histaff.io"
+            href="https://forms.gle/vmC5qCKea5PHCbUA9"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Get Started
+            Get Demo
           </a>
         </div>
       </div>

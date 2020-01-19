@@ -11,7 +11,7 @@ import { StaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import "../../static/styles/main.scss"
-import logo from "../../static/images/logo.svg"
+import logo from "../../static/images/logo.png"
 import iconTwitter from "../../static/images/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icon-linkedin.svg"
 import iconGitHub from "../../static/images/icon-github.svg"
@@ -38,7 +38,7 @@ const Layout = ({ children }) => (
               <div className="col-5">
                 <div className="widget__item">
                   <div className="logo">
-                    <Link to="/" title="HiStaff">
+                    <Link to="/" title="Prospect">
                       <img alt="Logo" src={logo} />
                     </Link>
                   </div>
@@ -46,8 +46,7 @@ const Layout = ({ children }) => (
                   <div className="about">
                     <p>
                       A software that was created with the goal of solving the
-                      problems of Human Resources in small and medium-sized
-                      businesses.
+                      problems of career services in colleges and universities.
                     </p>
                   </div>
                 </div>
@@ -56,22 +55,19 @@ const Layout = ({ children }) => (
               <div className="col-2">
                 <div className="widget__item">
                   <ul className="links">
-                    <h4>HiStaff</h4>
+                    <h4>Prospect</h4>
                     <ul>
-                      <li>
+                      {/* <li>
                         <Link to="/integrations/slack" title="Integrations">
                           Integrations
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link to="/about" title="About Us">
                           About
                         </Link>
                       </li>
-                      <li>
-                        <a href="https://histaff.io/blog">Blog</a>
-                      </li>
-                      <li>
+                      {/* <li>
                         <a
                           className="links__special"
                           href="https://feedback.histaff.io/"
@@ -83,7 +79,7 @@ const Layout = ({ children }) => (
                         >
                           Feedback
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </ul>
                 </div>
@@ -114,7 +110,7 @@ const Layout = ({ children }) => (
                 </div>
               </div>
 
-              <div className="col-3">
+              {/* <div className="col-3">
                 <div className="widget__item">
                   <div className="social">
                     <a
@@ -151,14 +147,14 @@ const Layout = ({ children }) => (
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="copyright">
               <p>
-                Copyright {new Date().getFullYear()}, {` `}" "
-                <a href="https://histaff.io" title="HiStaff">
-                  HiStaff
+                Copyright {new Date().getFullYear()}, {` `}
+                <a href="https://Prospect.io" title="Prospect">
+                  Prospect
                 </a>
                 . All rights reserved.
               </p>

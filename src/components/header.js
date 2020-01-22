@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
         </div>
 
         <div className="get-started">
-          <a href="https://forms.gle/vmC5qCKea5PHCbUA9">Get Demo</a>
+          <Link to="/contact">Get Demo</Link>
         </div>
       </div>
     </div>

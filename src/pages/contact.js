@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "./contact.css"
 
 const ContactPage = () => (
   <Layout>
@@ -11,24 +12,17 @@ const ContactPage = () => (
         <div className="title">
           <h1>Contact</h1>
         </div>
-
-        <div className="row">
-          <div className="col-7">
-            <p>
-              We take our commitment to our users seriously. If you need our
-              help with your user account, have questions about how to use
-              Prospect, any feedback or are experiencing technical difficulties,
-              please do not hesitate to contact us.
-            </p>
-          </div>
-
-          <div className="col-5">
-            <div className="contact-items">
-              <p>Plain email is the best way to contact us.</p>
-              <h2>braden.watkins5@gmail.com</h2>
-            </div>
-          </div>
-        </div>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSd1Z7nssyIjWrkX_vokM4dZSRoKbLBEdrvbwrS9ziPKSSU1dQ/viewform?embedded=true"
+          title="embeded-contact-form"
+          width="640"
+          height="1300"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >
+          Loading…
+        </iframe>
       </div>
     </div>
   </Layout>

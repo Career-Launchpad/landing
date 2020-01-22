@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -117,13 +118,7 @@ const IndexPage = () => (
         </div>
 
         <div className="button">
-          <a
-            href="https://forms.gle/vmC5qCKea5PHCbUA9"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Get Demo
-          </a>
+          <Link to="/contact">Get Demo</Link>
         </div>
       </div>
     </div>

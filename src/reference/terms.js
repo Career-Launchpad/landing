@@ -13,7 +13,7 @@ const TermsPage = () => (
         </div>
 
         <p>
-          <strong>Last Updated 07 June 2019</strong>
+          <strong>Last Updated 23 January 2020</strong>
         </p>
 
         <h3>
@@ -22,8 +22,10 @@ const TermsPage = () => (
         <p>
           1.1 These Terms and Conditions constitute a legally binding agreement
           made between you, whether personally or on behalf of an entity (
-          <strong>you</strong>), and <strong>HiStaff</strong>, doing business as
-          <strong> HiStaff</strong> <strong>(https://histaff.io) </strong>
+          <strong>you</strong>), and <strong>Prospect</strong>, doing business
+          as
+          <strong> Prospect</strong>{" "}
+          <strong>(https://prospectapp.now.sh) </strong>
           website as well as any related applications (the <strong>Site</strong>
           ). &nbsp;
         </p>
@@ -81,19 +83,19 @@ const TermsPage = () => (
         </p>
         <p>
           <strong>&mdash; </strong>Our Privacy Notice
-          https://histaff.io/privacy, which sets out the terms on which we
+          https://Prospect.io/privacy, which sets out the terms on which we
           process any personal data we collect from you, or that you provide to
           us. By using the Site, you consent to such processing and you warrant
           that all data provided by you is accurate. &nbsp;
         </p>
         <p>
-          <strong>&mdash; </strong>Our Acceptable Use Policy contact@histaff.io,
-          which sets out the permitted uses and prohibited uses of the Site.
-          When using the Site, you must comply with this Acceptable Use Policy.
-          &nbsp;
+          <strong>&mdash; </strong>Our Acceptable Use Policy
+          contact@Prospect.io, which sets out the permitted uses and prohibited
+          uses of the Site. When using the Site, you must comply with this
+          Acceptable Use Policy. &nbsp;
         </p>
         <p>
-          <strong>&mdash; </strong>Our Cookie Policy https://app.histaff.io,
+          <strong>&mdash; </strong>Our Cookie Policy https://app.Prospect.io,
           which sets out information about the cookies on the Site.
         </p>
 
@@ -101,7 +103,7 @@ const TermsPage = () => (
           <strong>2. </strong>&nbsp;<strong>Acceptable Use </strong>{" "}
         </h3>
         <p>
-          2.1 Our full Acceptable Use Policy contact@histaff.io, sets out all
+          2.1 Our full Acceptable Use Policy contact@Prospect.io, sets out all
           the permitted uses and prohibited uses of this site. &nbsp;
         </p>
         <p>
@@ -169,7 +171,7 @@ const TermsPage = () => (
         <p>
           4.3 In posting User Content, including reviews or making contact with
           other users of the Site you shall comply with our Acceptable Use
-          Policy contact@histaff.io. &nbsp;
+          Policy contact@Prospect.io. &nbsp;
         </p>
         <p>
           4.4 You warrant that any User Content does comply with our Acceptable

@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
         </div>
 
         <div className="get-started">
-          <Link to="/contact">Get Demo</Link>
+          <Link to="/contact">Request Demo</Link>
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Prospect`,
 }
 
 export default Header

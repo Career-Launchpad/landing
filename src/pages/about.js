@@ -73,11 +73,12 @@ const AboutPage = () => (
           <div className="col-6">
             <div className="item">
               <img alt="Happiness" src={happinessImage} />
-              <h3>Boost motivation and happiness</h3>
+              <h3>Help your students get better offers</h3>
               <p>
-                It is Obvious that a happy employee will make the environment
-                happy and energetic! We are constantly attempting to provide
-                solutions for maximizing employee’s motivation and joy.
+                Students seek out universities that can provide them the best opportunities
+                for their futures. Give your university another advatage by leveraging Prospect's
+                state-of-the-art dashboards, predictive analytics, and outreach insights to create
+                and solidify relationships with companies your students really care about. 
               </p>
             </div>
           </div>

@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/success_factors.svg"
+import featureImage from "../../static/images/undraw_report.svg"
 import thumbnailContract from "../../static/images/contract.svg"
 import thumbnailNetwork from "../../static/images/network.svg"
 import thumbnailList from "../../static/images/list.svg"
@@ -10,12 +10,12 @@ import thumbnailCollab from "../../static/images/collab.svg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Find your most valuable companies" />
+    <SEO title="Connections that matter" />
 
     <div className="page-header home">
-      <h1>Find your most valuable companies</h1>
+      <h1>Connect with employers that matter</h1>
       <p>
-        Prospect gives colleges and universities the data you need to help
+        Prospect gives your universities or college the data you need to help
         <br />
         your students get the job they want.
       </p>
@@ -36,8 +36,8 @@ const IndexPage = () => (
               <div className="feature__content">
                 <h2>Track offers and placement</h2>
                 <p>
-                  Know who is hiring your students and the offers that they are
-                  making
+                  Know which companies are hiring your students and the offers
+                  that they are making.
                 </p>
               </div>
             </div>
@@ -50,8 +50,8 @@ const IndexPage = () => (
               <div className="feature__content">
                 <h2>Leverage your alumni</h2>
                 <p>
-                  Work with alumni to connect current students with future
-                  employers
+                  Work with alumni to connect your school with new companies and
+                  connect your students with potential employers
                 </p>
               </div>
             </div>
@@ -77,7 +77,8 @@ const IndexPage = () => (
                 <h2>See the big picture</h2>
                 <p>
                   Reference data from job sites like LinkedIn, Glassdoor,
-                  Handshake, and Indeed.com
+                  Handshake, and Indeed.com to further your school's recruiting
+                  efforts.
                 </p>
               </div>
             </div>
@@ -91,7 +92,8 @@ const IndexPage = () => (
                 <h2>Unify your efforts</h2>
                 <p>
                   Collaborate across your university to build relationships with
-                  employers
+                  employers and consolodate your data into one single
+                  application.
                 </p>
               </div>
             </div>
@@ -109,15 +111,15 @@ const IndexPage = () => (
     {/* <div className="call-to-action">
       <div className="container">
         <div className="call-to-action__content">
-          <h2>Request a demo</h2>
+          <h2>Request a demo today!</h2>
           <p>
             Start increasing the coordination and productivity of your job
-            placement efforts
+            placement or employer recruiting efforts.
           </p>
         </div>
 
         <div className="button">
-          <Link to="/contact">Get Demo</Link>
+          <Link to="/contact">Request Demo</Link>
         </div>
       </div>
     </div> */}

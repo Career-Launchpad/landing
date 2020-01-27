@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -107,7 +106,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="call-to-action">
+    {/* <div className="call-to-action">
       <div className="container">
         <div className="call-to-action__content">
           <h2>Request a demo</h2>
@@ -119,6 +118,21 @@ const IndexPage = () => (
 
         <div className="button">
           <Link to="/contact">Get Demo</Link>
+        </div>
+      </div>
+    </div> */}
+    <div className="call-to-action">
+      <div className="container">
+        <div className="call-to-action__content">
+          <h2>Help Us Validate</h2>
+          <p>
+            Help us learn more about your specific use case and how we can
+            tailor Prospect to your needs.
+          </p>
+        </div>
+
+        <div className="button">
+          <a href="https://forms.gle/DhgUj1ijgYrmYVBF9">Help us validate</a>
         </div>
       </div>
     </div>

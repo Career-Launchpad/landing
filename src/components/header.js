@@ -12,9 +12,13 @@ const Header = ({ siteTitle }) => (
             <img alt="Logo" src={logo} />
           </Link>
         </div>
-
-        <div className="get-started">
-          <Link to="/contact">Request Demo</Link>
+        <div className="header-links">
+          <div className="get-started">
+            <Link to="/contact">Request Demo</Link>
+          </div>
+          <a href="https://prospectapp.now.sh" className="login">
+            Login
+          </a>
         </div>
       </div>
     </div>
